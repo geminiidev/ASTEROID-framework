@@ -237,8 +237,43 @@ img {
 *****************************************************************/
 
 
+.expandir_col_peq_2{ grid-column: 1 / span 2; }
+.expandir_col_peq_3{ grid-column: 1 / span 3; }
+.expandir_col_peq_4{ grid-column: 1 / span 4; }
+.expandir_col_peq_5{ grid-column: 1 / span 5; }
+.expandir_col_peq_6{ grid-column: 1 / span 6; }
+.expandir_col_peq_7{ grid-column: 1 / span 7; }
+.expandir_col_peq_8{ grid-column: 1 / span 8; }
+.expandir_col_peq_9{ grid-column: 1 / span 9; }
+.expandir_fila_peq_2{ grid-row: 1 / span 2; }
+.expandir_fila_peq_3{ grid-row: 1 / span 3; }
+.expandir_fila_peq_4{ grid-row: 1 / span 4; }
+.expandir_fila_peq_5{ grid-row: 1 / span 5; }
+.expandir_fila_peq_6{ grid-row: 1 / span 6; }
+.expandir_fila_peq_7{ grid-row: 1 / span 7; }
+.expandir_fila_peq_8{ grid-row: 1 / span 8; }
+.expandir_fila_peq_9{ grid-row: 1 / span 9; }
 
-   
+@media(min-width:480px){
+    .expandir_col_med_2{ grid-column: 1 / span 2; }
+    .expandir_col_med_3{ grid-column: 1 / span 3; }
+    .expandir_col_med_4{ grid-column: 1 / span 4; }
+    .expandir_col_med_5{ grid-column: 1 / span 5; }
+    .expandir_col_med_6{ grid-column: 1 / span 6; }
+    .expandir_col_med_7{ grid-column: 1 / span 7; }
+    .expandir_col_med_8{ grid-column: 1 / span 8; }
+    .expandir_col_med_9{ grid-column: 1 / span 9; }
+    .expandir_fila_med_2{ grid-row: 1 / span 2; }
+    .expandir_fila_med_3{ grid-row: 1 / span 3; }
+    .expandir_fila_med_4{ grid-row: 1 / span 4; }
+    .expandir_fila_med_5{ grid-row: 1 / span 5; }
+    .expandir_fila_med_6{ grid-row: 1 / span 6; }
+    .expandir_fila_med_7{ grid-row: 1 / span 7; }
+    .expandir_fila_med_8{ grid-row: 1 / span 8; }
+    .expandir_fila_med_9{ grid-row: 1 / span 9; }
+}
+
+@media(min-width:900px){  
     .expandir_col_2{ grid-column: 1 / span 2; }
     .expandir_col_3{ grid-column: 1 / span 3; }
     .expandir_col_4{ grid-column: 1 / span 4; }
@@ -247,7 +282,15 @@ img {
     .expandir_col_7{ grid-column: 1 / span 7; }
     .expandir_col_8{ grid-column: 1 / span 8; }
     .expandir_col_9{ grid-column: 1 / span 9; }
-
+    .expandir_fila_2{ grid-row: 1 / span 2; }
+    .expandir_fila_3{ grid-row: 1 / span 3; }
+    .expandir_fila_4{ grid-row: 1 / span 4; }
+    .expandir_fila_5{ grid-row: 1 / span 5; }
+    .expandir_fila_6{ grid-row: 1 / span 6; }
+    .expandir_fila_7{ grid-row: 1 / span 7; }
+    .expandir_fila_8{ grid-row: 1 / span 8; }
+    .expandir_fila_9{ grid-row: 1 / span 9; }
+}
 
 
 
