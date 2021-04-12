@@ -22,3 +22,17 @@ body {
     50%{background-position:32% 100%}
     100%{background-position:69% 0%}
 }
+
+.head {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    padding-left: 1rem;
+    height: 3rem;
+    width: 100%;
+}
+.logo {
+    height: 32px;
+    vertical-align: sub;
+    width: 32px;
+}
