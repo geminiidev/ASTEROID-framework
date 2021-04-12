@@ -1,3 +1,25 @@
+/*
+ASTEROID framework
+desarrollado por geminiidev@gmail.com
+inspirado en su alegre mujer 
+
+
+indice====>
+*/
+
+/*imports*/
+/*variables */
+/*colores*/
+/*estilos generales*/
+/*grid*/
+/*expanciones*/
+/*titulos y fuentes*/
+/*contenedores*/
+/*cards*/
+/*fondos vacanos*/
+/*imports*/
+
+
 
 
 
@@ -285,9 +307,11 @@ h6 {
     font-weight: 200;
 }
 
+/***otros***/
 
-
-
+.lighter{
+    color: #fff;
+}
 
 
 /*******************************************************************
@@ -328,14 +352,40 @@ h6 {
 
 
 /*******************************************************************
-    materiales
+    fondos vacanos
 ********************************************************************/
 
 
 .vidrio  {
     background: var(--fondo_vidrio_oscuro); 
-    backdrop-filter: blur(40px);
-    border: 3px solid var(--fondo_vidrio_oscuro); 
+    backdrop-filter: blur(30px);
+    border-bottom: 3px solid var(--fondo_vidrio_oscuro);
+    border-left: 1px solid var(--fondo_vidrio_oscuro); 
+    border-right: 1px solid var(--fondo_vidrio_oscuro); 
+    border-top: 3px solid var(--fondo_vidrio_oscuro);  
+}
+
+.colorines1 {
+    background: linear-gradient(0deg, #33cba4,/*#4133cb,*/ #ed86d8);
+    background-size: 100% 300%;
+    -webkit-animation: back-animation 25s ease infinite;
+    -moz-animation: back-animation 25s ease infinite;
+    animation: back-animation 25s ease infinite;
+}
+@-webkit-keyframes back-animation {
+    0%{background-position:69% 0%}
+    50%{background-position:32% 100%}
+    100%{background-position:69% 0%}
+}
+@-moz-keyframes back-animation {
+    0%{background-position:69% 0%}
+    50%{background-position:32% 100%}
+    100%{background-position:69% 0%}
+}
+@keyframes back-animation {
+    0%{background-position:69% 0%}
+    50%{background-position:32% 100%}
+    100%{background-position:69% 0%}
 }
 
 .madera1 { background:  url('./images/wo1.jpg');  }
