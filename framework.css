@@ -1,3 +1,11 @@
+
+
+
+/************************************************************************
+    imports
+*************************************************************************/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
@@ -36,12 +44,17 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 ********************************************************/
 
 
-
-
+    /***paleta de astrid***/
+    --azul_primary: #43bdd8;
+    --rosita: #e7abd5;
+    --verde: #43bdd8;
+    --amarillo: #43bdd8;
+    --rojo: #43bdd8;
     --blanco: #fff;
     --fondo: #f1f1f1;
-    --fondo_oscuro: rgba(25, 18, 41, 0.842); 
-    --celeste: #0fbfcc;
+    
+    /***otros***/
+    --fondo_vidrio_oscuro: rgba(0, 0, 0, 0.3);
 }   
 
 
@@ -62,6 +75,7 @@ body {
 
 
 p {
+    font-size: 1rem;
     line-height: 30px;
 }
 
@@ -194,8 +208,30 @@ img {
 }
 
 
+
+
+/********************************************************
+    expanciones
+*****************************************************************/
+
+
+
+   
+    .expandir_col_2{ grid-column: 1 / span 2; }
+    .expandir_col_3{ grid-column: 1 / span 3; }
+    .expandir_col_4{ grid-column: 1 / span 4; }
+    .expandir_col_5{ grid-column: 1 / span 5; }
+    .expandir_col_6{ grid-column: 1 / span 6; }
+    .expandir_col_7{ grid-column: 1 / span 7; }
+    .expandir_col_8{ grid-column: 1 / span 8; }
+    .expandir_col_9{ grid-column: 1 / span 9; }
+
+
+
+
+
 /**********************************************************
-    titulos
+    titulos y fuentes
 ***********************************************************/
 
 
@@ -288,9 +324,25 @@ h6 {
     padding: 5px 15px;
 }
 
-.vidrio{
-    background: var(--fondo_oscuro);
-    border-radius: 5px;
-    box-shadow: var(--sombra); 
 
+
+
+/*******************************************************************
+    materiales
+********************************************************************/
+
+
+.vidrio  {
+    background: var(--fondo_vidrio_oscuro); 
+    backdrop-filter: blur(40px);
+    border: 3px solid var(--fondo_vidrio_oscuro); 
 }
+
+.madera1 { background:  url('./images/wo1.jpg');  }
+.madera2 { background:  url('./images/wo2.jpg');  }
+.madera3 { background:  url('./images/wo3.jpg');  }
+.madera4 { background:  url('./images/wo4.jpeg'); }
+.madera5 { background:  url('./images/wo5.jpeg'); }
+.madera6 { background:  url('./images/wo6.jpg');  }
+.madera7 { background:  url('./images/wo7.jpeg'); }
+.madera8 { background:  url('./images/wo8.jpg');  }
